@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T23:17:04.370Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="SebOTBlM8hArYntRBGd6" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-17T23:21:22.913Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="tPV6Op9GHo5m6pyHRtDK" version="16.5.6" type="github">
   <diagram id="UW2Let9FedXbePVIwO7e" name="Page-1">
     <mxGraphModel dx="1580" dy="1338" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="NkGoriXdBeGFRCCLlbzc-31" value="RQ: List&lt;deviceID&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;" vertex="1" parent="NkGoriXdBeGFRCCLlbzc-30">
           <mxGeometry y="30" width="225" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NkGoriXdBeGFRCCLlbzc-32" value="RS: (List) threshold+duration - ranges" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;" vertex="1" parent="NkGoriXdBeGFRCCLlbzc-30">
+        <mxCell id="NkGoriXdBeGFRCCLlbzc-32" value="RS: (List) threshold+duration" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;" vertex="1" parent="NkGoriXdBeGFRCCLlbzc-30">
           <mxGeometry y="60" width="225" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GJOkn2DgcXXOF6PlL42Y-2" value="PPA-API Service (java)" style="swimlane;rounded=1;dashed=1;fillColor=#b1ddf0;strokeColor=#10739e;swimlaneFillColor=#CCE5FF;gradientColor=#ffffff;" parent="1" vertex="1">
@@ -151,14 +151,14 @@
         <mxCell id="GJOkn2DgcXXOF6PlL42Y-12" value="Display Current threshold" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;labelBackgroundColor=none;fillColor=#b1ddf0;strokeColor=#10739e;" parent="GJOkn2DgcXXOF6PlL42Y-1" vertex="1">
           <mxGeometry x="22" y="391" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="GJOkn2DgcXXOF6PlL42Y-13" value="For: (many) deviceID+InputID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;" parent="GJOkn2DgcXXOF6PlL42Y-12" vertex="1">
+        <mxCell id="GJOkn2DgcXXOF6PlL42Y-13" value="For: List&lt;deviceID&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;" parent="GJOkn2DgcXXOF6PlL42Y-12" vertex="1">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GJOkn2DgcXXOF6PlL42Y-14" value="cat (*):high; psi:56; dur: 5 mins" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;" parent="GJOkn2DgcXXOF6PlL42Y-12" vertex="1">
+        <mxCell id="GJOkn2DgcXXOF6PlL42Y-14" value="Display:high; psi:56; dur: 5 mins" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;" parent="GJOkn2DgcXXOF6PlL42Y-12" vertex="1">
           <mxGeometry y="60" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GJOkn2DgcXXOF6PlL42Y-5" value="PPA &lt;br&gt;User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="30" y="300" width="30" height="60" as="geometry" />
+          <mxGeometry x="30" y="258" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GJOkn2DgcXXOF6PlL42Y-92" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="GJOkn2DgcXXOF6PlL42Y-31" target="GJOkn2DgcXXOF6PlL42Y-39" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -232,7 +232,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NkGoriXdBeGFRCCLlbzc-1" value="View thresholds&lt;br&gt;&amp;nbsp;per inputId" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="GJOkn2DgcXXOF6PlL42Y-13">
+        <mxCell id="NkGoriXdBeGFRCCLlbzc-1" value="View thresholds" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GJOkn2DgcXXOF6PlL42Y-5" target="GJOkn2DgcXXOF6PlL42Y-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="75" y="297.3724489795918" as="sourcePoint" />
             <mxPoint x="225" y="435" as="targetPoint" />
