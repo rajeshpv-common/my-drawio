@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-08T13:56:39.781Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="lbN90eVV-l17OGVIg3a3" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-09T06:58:18.752Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="vxZ0MRHvuokviZwMWWcv" version="20.6.0" type="github">
   <diagram id="UW2Let9FedXbePVIwO7e" name="Page-1">
-    <mxGraphModel dx="1987" dy="1391" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
+    <mxGraphModel dx="1453" dy="1243" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -195,7 +195,7 @@
         <mxCell id="wjF6M2Yu668ZBDFbbwRF-78" value="     GET current-device-config" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=33;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;" parent="GJOkn2DgcXXOF6PlL42Y-2" vertex="1">
           <mxGeometry x="22.5" y="145" width="157.5" height="103" as="geometry" />
         </mxCell>
-        <mxCell id="wjF6M2Yu668ZBDFbbwRF-79" value="RQ: DeviceId+InputID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;" parent="wjF6M2Yu668ZBDFbbwRF-78" vertex="1">
+        <mxCell id="wjF6M2Yu668ZBDFbbwRF-79" value="RQ: DeviceId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;" parent="wjF6M2Yu668ZBDFbbwRF-78" vertex="1">
           <mxGeometry y="33" width="157.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wjF6M2Yu668ZBDFbbwRF-80" value="RS: Current Threshold" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;rounded=1;" parent="wjF6M2Yu668ZBDFbbwRF-78" vertex="1">
