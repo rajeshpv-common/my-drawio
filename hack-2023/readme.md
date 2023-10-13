@@ -1,0 +1,1 @@
+AMI Customer picture
