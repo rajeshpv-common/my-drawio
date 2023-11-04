@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-04T01:49:49.865Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="UYFNppA4hk5W_s5OOT6X" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-04T01:56:14.004Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="VV1V9CQoIJL_LMR1TtEB" version="22.0.8" type="github">
   <diagram id="UW2Let9FedXbePVIwO7e" name="Page-1">
     <mxGraphModel dx="1448" dy="1305" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
       <root>
@@ -6,6 +6,9 @@
         <mxCell id="1" parent="0" />
         <mxCell id="GJOkn2DgcXXOF6PlL42Y-1" value="Smartpoint / Radio" style="swimlane;rounded=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;swimlaneFillColor=#D5E8D4;opacity=10;gradientColor=default;glass=1;shadow=1;swimlaneLine=0;startSize=30;fontSize=15;fontStyle=0;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry width="210" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="AdH4K1TgIiBWA7QRcjIa-25" value="&lt;font style=&quot;font-size: 22px;&quot; face=&quot;Comic Sans MS&quot;&gt;498&lt;/font&gt;" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;gradientColor=default;fillColor=#FFCCE6;opacity=20;" vertex="1" parent="GJOkn2DgcXXOF6PlL42Y-1">
+          <mxGeometry x="46.25" y="405" width="118.75" height="75" as="geometry" />
         </mxCell>
         <mxCell id="AdH4K1TgIiBWA7QRcjIa-1" value="Base Station" style="swimlane;rounded=1;dashed=1;fillColor=#C2AF9B;strokeColor=#d79b00;swimlaneFillColor=#FFD2AB;opacity=10;glass=1;shadow=1;swimlaneLine=0;startSize=30;fontSize=15;fontStyle=0;fontFamily=Verdana;gradientColor=default;" vertex="1" parent="1">
           <mxGeometry x="331" width="209" height="630" as="geometry" />
